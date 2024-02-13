@@ -1,0 +1,73 @@
+.section .title{
+padding-top: 2em;
+color: var(--text-color);
+font-style: 2.5em;
+margin-bottom: 0.25em;
+font-weight: 900;
+max-width: 100%;
+}
+
+.testimonials-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; 
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  overflow: hidden;
+
+  .arrow-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, opacity 0.3s;
+    opacity: 0.7;
+    font-size: 18px;
+
+    &:hover {
+      background-color: var(--text-color);
+      opacity: 1;
+    }
+  }
+
+  .prev-btn {
+    margin-right: 10px;
+  }
+
+  .next-btn {
+    margin-left: 10px;
+  }
+
+  .testimonial {
+    flex-grow: 1;
+    padding: 0 20px;
+    text-align: center;
+    position: relative;
+
+    img {
+      max-width:20em;
+      border-radius: 50%;
+    }
+
+    h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+    .job{
+        color: #777;
+    }
+
+    .desc {
+      color: #777;
+      padding-top: 2em;
+    }
+  }
+}

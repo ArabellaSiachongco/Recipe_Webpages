@@ -1,0 +1,21 @@
+.footer {
+  background-color: #191A25;
+  color: #fff;
+  padding-block: 4em;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 1em;
+  .footer-section {
+    p {
+      opacity: 0.8;
+      margin-bottom: 0.5em;
+    }
+    p.title {
+      opacity: 1;
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-bottom: 1em;
+      letter-spacing: 1px;
+    }
+  }
+}
