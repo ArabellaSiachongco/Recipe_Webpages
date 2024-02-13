@@ -10,7 +10,7 @@ export default function Navbar() {
     const links = [
         {
             name: 'Home',
-            path: '/RecipeWeb',
+            path: '/Recipe_Webpages',
             icon: faHome
         },
         {
