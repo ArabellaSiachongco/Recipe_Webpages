@@ -16,7 +16,7 @@ export default function RecipeCard({ recipe }) {
         <div className="recipe-card">
             <CustomImg imgSrc={recipe.image} pt="65%" />
             <div className="recipe-card-info">
-                <img className="author-img" src={recipe.authorimg} />
+                <img className="author-img" src={process.env.PUBLIC_URL + recipe.authorimg} alt="Author" />
                 <p className="recipe-title">{recipe.title}</p>
                 <p className="recipe-desc">{recipe.description}</p>
                 <a onClick={handleViewRecipe} className="view-btn">View Recipe</a>
@@ -26,7 +26,7 @@ export default function RecipeCard({ recipe }) {
                     <div className="modal-content">
                         <span className="close" onClick={handleCloseModal}>&times;</span>
                         <h2>{recipe.title} Recipe</h2>
-                        <p  className="recipe-desc-title">Ingredients:
+                        <p className="recipe-desc-title">Ingredients:
                             <ul className="recipe-desc">
                                 <li>{recipe.ingredients_1}</li>
                                 <li>{recipe.ingredients_2}</li>

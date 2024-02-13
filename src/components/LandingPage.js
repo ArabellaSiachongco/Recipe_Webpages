@@ -2,15 +2,15 @@ import CustomImg from "./CustomImg";
 
 export default function landingPage() {
     const images = [
-        "./img/gallery/burger.png",
-        "./img/gallery/Caprese.png",
-        "./img/gallery/brocolli.png",
-        "./img/gallery/Spaghetti.png",
-        "./img/gallery/curry.png",
-        "./img/gallery/tacos.png",
-        "./img/gallery/salad.png",
-        "./img/gallery/chickenPizza.png",
-        "./img/gallery/roll.png",
+        "/img/gallery/burger.png",
+        "/img/gallery/Caprese.png",
+        "/img/gallery/brocolli.png",
+        "/img/gallery/Spaghetti.png",
+        "/img/gallery/curry.png",
+        "/img/gallery/tacos.png",
+        "/img/gallery/salad.png",
+        "/img/gallery/chickenPizza.png",
+        "/img/gallery/roll.png",
     ]
 
     return (

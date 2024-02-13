@@ -11,7 +11,7 @@ export default function Skills() {
     return (
         <div className="section improve-skills">
             <div className="col img">
-                <img src="/img/gallery/Pizza.png" alt=""></img>
+            <img src={process.env.PUBLIC_URL + "/img/gallery/Pizza.png"} alt="Delicious Pizza"></img>
             </div>
             <div className="col composition">
                 <h1 className="title">Improve Your Culinary Skills</h1>

@@ -14,11 +14,11 @@ function App() {
       <Navbar />
       <div className="container main">
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/RecipeWeb" element={<Home />}></Route>
           <Route path="/recipes" element={<Recipes />}></Route>
         </Routes>
       </div>
-      <Footer />
+    <Footer />
     </Router>
   );
 }
